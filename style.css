@@ -1,0 +1,132 @@
+* {
+
+}
+
+body {
+    background: #0a387163;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+}
+
+header {
+    width: 100%;
+    height: 75px;
+    display: flex;
+    align-items: center;
+    margin-left: 25px;
+}
+
+.conteiner {
+    width: 990px;
+    margin: auto;
+    
+}
+
+.conteudo {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    height: 100%;
+    box-sizing: border-box;
+}
+
+
+.logo {
+    font-size: 1em !important;
+    padding: 10px;
+    width: 18px;
+    text-align: center;
+    text-decoration: none;
+    margin: 2px 2px;
+    border-radius: 50%;
+    border-style: solid;
+    border-width: 2px;
+    border-color: #fff;
+}
+
+
+
+main {
+    display: flex;
+    margin-left: 80px;
+    margin-bottom: 50px;
+}
+
+.input-texto {
+    margin-top: 90px;
+    background-color: transparent;
+    border-color: #0A3871;
+    border-style: solid;
+    border-radius: 24px;    
+    margin-left: 10%;
+    text-align: center;
+}
+
+.mensagem {
+    margin-top: 90px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-image: url(/Imagens/boneco.jpg);
+    background-repeat: no-repeat;
+    background-position: 18px;
+    background-size: 300px;
+    text-align: center;
+    margin-left: 27px;
+    font-size: 14px;
+    border-radius: 24px;
+    color: #0A3871;
+}
+
+
+.botoes {
+    display: flex;
+    flex-direction: row;
+    margin-top: 75px;
+    height: 10%;
+    align-items: flex-start;
+}
+
+.botoes2 {
+    display: flex;
+    flex-direction: row;
+    margin-top: 100px;
+    margin-left: 50%;
+    align-items: flex-start;
+}
+
+
+.encriptar {
+    background-color: #0A3871;
+    color: white;
+    width: 100%;
+    height: 70%;
+    border-radius: 24px;
+    gap: 8px;
+}
+
+.desencriptar {
+    background-color: white;
+    color: #0A3871;
+    width: 100%;
+    height: 70%;
+    border-radius: 24px;
+    gap: 8px;
+}
+
+.botao3 {
+    background-color: #0A3871;
+    color: white;
+    width: 100px;
+    height: 50px;
+    border-radius: 24px;
+    gap: 18px;
+}
+
+
+.informacao {
+    font-size: 8px;
+}

@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="script.js">
+    <title>Decodificador</title>
+</head>
+<body>
+    <header>
+        <img src="/Imagens/logo.png" alt="Logo da Alura" class="logo-alura">
+
+    </header>
+    <main class="conteiner">
+        <div class="conteudo">
+            <section>
+                <textarea class="input-texto" placeholder="Digite aqui" rows="29" cols="25"></textarea>
+                    <div>
+                    <h6 class="informacao">Apenas letras minúsculas e sem acento</h6>
+                    </div>
+            
+                <div class="botoes">
+                    <button class="encriptar" onclick="btnEncriptar()">Criptografar
+                    </button>
+                
+                    <button class="desencriptar" onclick="btcDesencriptar()">Descriptografar
+                    </button>
+                </div>
+            </section> 
+        </div>
+        
+   
+        <section>
+            <textarea class="mensagem" placeholder="Texto criptografado" id="areatexto2" cols="40" rows="26"></textarea>
+            <div class="botoes2">
+            <button id="copy" onclick="copy()" class="botao3"> Copiar</button>
+            </div>
+        </section>
+    </main>
+    <script src="script.js"></script>    
+    <br><p>
+
+    </p>
+    <footer class="conteiner">
+        <Div class="redes">
+            <a href="facebok.com"><img src="/Imagens/Facebook_Logo.png" alt="Facebook" class="logo face"></a>
+            <a href="whatsapp.com"><img src="/Imagens/logo-whatsapp.png" alt="logo-whatsapp" class="logo whats"></a>
+            <a href="linkdin.com"><img src="/Imagens/logo-linkedin.png" alt="logo-linkedin" class="logo linkedin"></a>
+            <a href="github.com"><img src="/Imagens/github.png" alt="logo-git" class="logo git"></a>
+        </Div>
+        <p>&copy;Samuel Mendes - Decodificador de Texto</p>
+    </footer>
+    
+</body>
+</html>
