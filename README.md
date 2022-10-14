@@ -43,4 +43,4 @@ Curso que utilizado para o projeto foram:
 ## Feedback
 
 Tive um pouco de dificuldade no JavaScript, mas com dedicação conseguir funcionar o projeto. Por ser o meu primeiro projeto fico muito feliz por conseguir realizar e colocar GitHub e usando o Git no desktop.
-Pronto para o próximo desafio, e com o tempo vou arrumando este projeto com as coisas novas que vou aprende e principalmente deixar mais responsivo para mobile que ainda não conseguir, mas a cada atualização vou deixando ele melhor. 
+Pronto para o próximo desafio, e com o tempo vou arrumando este projeto com as coisas novas que vou aprender e principalmente deixar mais responsivo para mobile que ainda não conseguir, mas a cada atualização vou deixando-o melhor.
