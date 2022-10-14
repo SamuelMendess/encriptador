@@ -71,7 +71,7 @@ main {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    background-image: url('boneco.jpg');
+    background-image: url('.boneco.jpg');
     background-repeat: no-repeat;
     background-position: 18px;
     background-size: 300px;
