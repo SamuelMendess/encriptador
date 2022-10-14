@@ -66,7 +66,11 @@ main {
     display: flex;
     flex-direction: column;
     justify-content: center;
+<<<<<<< HEAD
     background-image: url('boneco.jpg');
+=======
+    background-image: url(Imagens/boneco.jpg);
+>>>>>>> ee7b5d8684cb56570978e9169bb0805cbc232741
     background-repeat: no-repeat;
     background-position: 18px;
     background-size: 300px;
